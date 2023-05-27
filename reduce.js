@@ -6,6 +6,7 @@
 
 
 // Summing an array of numbers:
+const num = [0, 1, 2, 3, 4];
 
 
 const teamMembers = [
