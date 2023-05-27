@@ -7,7 +7,8 @@
 
 // Summing an array of numbers:
 const num = [0, 1, 2, 3, 4];
-
+let sum = num.reduce((acc, curr)=> acc + curr);
+console.log(sum);
 
 const teamMembers = [
   {
