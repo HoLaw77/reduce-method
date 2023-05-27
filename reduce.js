@@ -14,7 +14,7 @@ console.log(
   "Total", acc + curr,
 );
 return acc + curr
-});
+}, 0);
 console.log(sum)
 
 const teamMembers = [
