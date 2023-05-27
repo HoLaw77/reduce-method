@@ -7,8 +7,15 @@
 
 // Summing an array of numbers:
 const num = [0, 1, 2, 3, 4];
-let sum = num.reduce((acc, curr)=> acc + curr);
-console.log(sum);
+let sum = num.reduce((acc, curr)=> {
+console.log(
+  "Accumulator:", acc,
+  "Current Value", curr,
+  "Total", acc + curr,
+);
+return acc + curr
+});
+console.log(sum)
 
 const teamMembers = [
   {
