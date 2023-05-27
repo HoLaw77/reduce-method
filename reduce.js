@@ -34,7 +34,9 @@ const teamMembers = [
   }
 ];
 
+
+
 // Totaling a specific object property
-
-
+let totalExperience = teamMembers.reduce((acc, curr)=> acc + curr.yrsExperience, 0);
+console.log(totalExperience);
 // Grouping by a property, and totaling it too
